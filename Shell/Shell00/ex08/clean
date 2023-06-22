@@ -1,0 +1,2 @@
+find . -type f \( -name "*~" -o -name "#*#" \) -exec sh -c 'echo "Archivo encontrado: {}"; rm -f "{}"' \;
+
